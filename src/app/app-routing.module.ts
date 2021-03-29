@@ -8,49 +8,49 @@ import { EditCustomerComponent } from './page/edit-customer/edit-customer.compon
 import { EditOrderComponent } from './page/edit-order/edit-order.component';
 import { EditProductComponent } from './page/edit-product/edit-product.component';
 import { OrderListComponent } from './page/order-list/order-list.component';
-import { ProductListComponent } from './page/product-list/product-list.component';
+import { ProductListComponent } from './page/product-list/product-list.component'
 
 
 const routes: Routes = [
   {
     path: '',
-    component: DashboardComponent
+    component: DashboardComponent,
   },
   {
     path: 'product',
-    component: ProductListComponent
+    component: ProductListComponent,
   },
   {
     path: 'product/:id',
-    component: EditProductComponent
+    component: EditProductComponent,
   },
   {
     path: 'bill',
-    component: BillListComponent
+    component: BillListComponent,
   },
   {
     path: 'bill/:id',
-    component: EditBillComponent
+    component: EditBillComponent,
   },
   {
     path: 'order',
-    component: OrderListComponent
+    component: OrderListComponent,
   },
   {
     path: 'order/:id',
-    component: EditOrderComponent
+    component: EditOrderComponent,
   },
   {
     path: 'customer',
-    component: CustomerListComponent
+    component: CustomerListComponent,
   },
   {
     path: 'customer/:id',
-    component: EditCustomerComponent
+    component: EditCustomerComponent,
   },
   {
     path: '**',
-    component: DashboardComponent
+    component: DashboardComponent,
   }
 ];
 
