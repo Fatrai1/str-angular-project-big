@@ -21,7 +21,7 @@ import { EditCustomerComponent } from './page/edit-customer/edit-customer.compon
 import { InfoCardComponent } from './common/info-card/info-card.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { ToastrModule } from 'ngx-toastr';
+import { ToastrModule } from 'ngx-toastr';
 import { CommonModule } from '@angular/common';
 // import { ChartComponent } from './common/chart/chart.component';
 
@@ -53,7 +53,7 @@ import { CommonModule } from '@angular/common';
     FormsModule,
     CommonModule,
     BrowserAnimationsModule,
-    // ToastrModule.forRoot(),
+    ToastrModule.forRoot(),
     // ChartsModule,
 ],
   providers: [],
